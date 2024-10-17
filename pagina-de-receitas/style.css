@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root{
+
+--White: hsl(0, 0%, 100%);
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+
+}
+*{
+    font-family: "Outfit", serif;
+}
+
+.container{
+    background-color: var(--Stone-100);
+    width: auto;
+    height: auto;
+    height: 951.5px;
+    position: relative;
+    left: -16px;
+    top: -19px;
+    transition: none;
+    cursor: move;
+    width: 1917px;
+
+    height: 959.5px;
+    position: relative;
+    left: -49px;
+    top: -144px;
+    width: 627px;
+    transform: translate(662px, 120px);
+    transition: none;
+}
+.fundo{
+    background-color: var(--White);
+    height: 710.5px;
+    position: relative;
+    left: -752px;
+    top: 101px;
+    width: 1206px;
+    transform: translate(1083px, 0px);
+    transition: none;
+
+    height: 710.5px;
+    position: relative;
+    left: -790px;
+    top: 97px;
+    width: 418px;
+    transform: translate(1512px, 0px);
+    border-radius: 8px;
+
+    height: 851.5px;
+    position: relative;
+    left: -1413px;
+    top: 39px;
+    width: 418px;
+    transform: translate(1512px, 0px);
+    transition: none;
+    cursor: move;
+}
+img{
+    position: relative;
+    width: 478px;
+    left: 640px;
+    top: 98px;
+    transition: none;
+    cursor: move;
+    left: 343px;
+    top: 46px;
+    transition: none;
+    cursor: move;
+
+    left: 42px;
+    top: -10px;
+    width: 309px;
+    height: 187.594px;
+    transform: translate(0px, 31px);
+    transition: none;
+    cursor: move;
+
+    left: 33px;
+    top: -11px;
+    width: 373px;
+    height: 187.594px;
+    transform: translate(-10px, 31px);
+    transition: none;
+    cursor: move;
+    border-radius: 8px;
+}
+h2{
+    position: relative;
+    left: -401px;
+    top: 52px;
+    width: 268px;
+    transform: translate(774px, 0px);
+    transition: none;
+    cursor: move;
+
+    position: relative;
+    left: -717px;
+    top: 10px;
+    width: 268px;
+    transform: translate(774px, 0px);
+    font-family: "Outfit", sans-serif;
+}
+p{
+    font-size: x-small;
+    width: 380px;
+    height: 36px;
+    transform: translate(0px, 12px);
+    position: relative;
+    left: 17px;
+    top: -5px;
+    transition: none;
+    cursor: move;
+}
+.titulo{
+    color: hsl(332, 51%, 32%);
+}
+.rosa{
+    background-color: var(--Rose-50) ;
+}
